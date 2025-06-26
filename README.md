@@ -1,11 +1,25 @@
-# 🐍 Snake Evolution CLI
+# 🐍 Snake Evolution - Complete Educational Game
 
-**Educational Snake Game - Command Line Interface Version**
+**The Ultimate Educational Snake Game with Math Learning Integration**
 
-A classic Snake game enhanced with educational math problems! Learn while you play in this terminal-based version.
+A comprehensive Snake game that combines classic gameplay with progressive math education. Features multiple difficulty levels, educational content, and extensive testing and development tools.
 
 ## 🎮 Quick Start
 
+### Option 1: Automated Setup
+```bash
+# Clone the repository
+git clone https://github.com/aysha-dheesan-banu/Snake_evolution_cli.git
+cd Snake_evolution_cli
+
+# Run automated setup
+python setup.py
+
+# Start the game
+python snake_evolution.py
+```
+
+### Option 2: Manual Setup
 ```bash
 # Clone the repository
 git clone https://github.com/aysha-dheesan-banu/Snake_evolution_cli.git
@@ -14,18 +28,48 @@ cd Snake_evolution_cli
 # Install dependencies
 pip install pygame
 
-# Run the game
+# Run the main game
 python snake_evolution.py
+
+# Or try different versions
+python demo_snake.py              # Basic demo
+python demo_snake_categories.py   # Category-based demo
+python test_enhanced_snake.py     # Enhanced features test
 ```
 
-## 🌟 Features
+### Option 3: Quick Start Script
+```bash
+# Use the quick start script
+./quick_start.sh
+```
 
-- 🐍 **Classic Snake Gameplay** - Move, eat, grow!
-- 🧮 **Educational Math Problems** - Answer questions to get bonus points
-- 📈 **Progressive Difficulty** - 10 levels of increasing challenge
-- 🏆 **Score Tracking** - Beat your high score
-- 🎯 **Achievement System** - Unlock achievements as you play
-- 🌍 **Multilingual Support** - English and Tamil languages
+## 🌟 Complete Game Package
+
+This repository contains the complete Snake Evolution educational game with:
+
+### 🎮 Game Versions
+- **`snake_evolution.py`** - Main complete game with all features
+- **`demo_snake.py`** - Basic Snake game demonstration
+- **`demo_snake_categories.py`** - Category-based math problems demo
+- **`test_enhanced_snake.py`** - Enhanced features testing version
+- **`test_final_snake.py`** - Final version testing
+
+### 🧮 Educational Components
+- **Progressive Math Levels** - 10 difficulty levels
+- **Category-Based Learning** - Arithmetic, Algebra, Geometry
+- **Multilingual Support** - English and Tamil
+- **Achievement System** - Unlock rewards as you progress
+
+### 🛠️ Development Tools
+- **`setup.py`** - Automated environment setup
+- **`setup_snake.py`** - Snake-specific setup
+- **`setup_snake_venv.py`** - Virtual environment setup
+- **Test files** - Comprehensive testing suite
+
+### 📁 Game Structure
+- **`games/`** - Educational game modules
+- **`utils/`** - Utility functions and translations
+- **Documentation** - Complete setup and gameplay guides
 
 ## 🎯 How to Play
 
@@ -65,6 +109,18 @@ python snake_evolution.py
 - Pygame library
 - Terminal/Command prompt
 
+### Dependencies
+```bash
+# Main requirements
+pip install pygame
+
+# Or use requirements file
+pip install -r requirements.txt
+
+# Snake-specific requirements
+pip install -r requirements_snake.txt
+```
+
 ## 🚀 Installation
 
 ### Option 1: Direct Download
@@ -103,22 +159,48 @@ Switch languages in the game settings menu.
 - **Concentration**: Build focus and attention
 - **Progressive Learning**: Gradual skill development
 
-## 🐛 Troubleshooting
+## 🧪 Testing & Development
 
-### Common Issues:
-
-**Game won't start:**
+### Run Tests
 ```bash
-pip install --upgrade pygame
+# Test enhanced features
+python test_enhanced_snake.py
+
+# Test final version
+python test_final_snake.py
+
+# Test snake categories
+python test_snake_categories.py
 ```
 
-**No sound:**
-- Check system volume
-- Ensure audio drivers are installed
+### Development Scripts
+```bash
+# Setup development environment
+python setup_snake_venv.py
 
-**Slow performance:**
-- Close other applications
-- Update graphics drivers
+# Play different versions
+./play_snake.sh
+./play_snake_evolution.sh
+```
+
+## 📚 Documentation
+
+- **`README_Snake.md`** - Detailed Snake game documentation
+- **`SNAKE_*.md`** - Development and update summaries
+- **`ENHANCED_SNAKE_COMPLETE.md`** - Enhanced features guide
+- **`FINAL_SNAKE_COMPLETE.md`** - Final version documentation
+
+## 🎯 Game Files Overview
+
+| File | Description | Purpose |
+|------|-------------|---------|
+| `snake_evolution.py` | Main game | Complete educational Snake game |
+| `demo_snake.py` | Basic demo | Simple Snake gameplay |
+| `demo_snake_categories.py` | Category demo | Math category testing |
+| `test_enhanced_snake.py` | Enhanced test | Feature testing |
+| `test_final_snake.py` | Final test | Complete game testing |
+| `setup.py` | Main setup | Automated installation |
+| `setup_snake.py` | Snake setup | Game-specific setup |
 
 ## 🤝 Contributing
 
